@@ -9,14 +9,17 @@
       integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
       crossorigin="anonymous"
     />
-    <link rel="stylesheet" href="../styles/style.css" />  
+    <link rel="stylesheet" href="../styles/style.css" />
     <style>
       .table {
-        max-width: 600px; /* Adjust this value as needed */
-        margin: 0 auto; /* Center the table */
+        max-width: 600px;
+        margin: 0 auto;
       }
-
-</style>
+    </style>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Geologica:wght@100..900&family=Rubik+Lines&display=swap"
+      rel="stylesheet"
+    />
   </head>
   <body style="background-color: #679436; margin: 0; padding: 0">
     <nav
@@ -39,7 +42,10 @@
         <div class="collapse navbar-collapse" id="navbarSupportedContent">
           <ul class="navbar-nav me-auto mb-2 mb-lg-0">
             <li class="nav-item">
-              <a class="nav-link" aria-current="page" href="../pages/index2.html"
+              <a
+                class="nav-link"
+                aria-current="page"
+                href="../pages/index2.html"
                 >Home</a
               >
             </li>
@@ -70,72 +76,84 @@
     </nav>
 
     <div class="container text-center">
-    <h1 class="titles">Trails We Love...</h1>
-    <br />
-    <div class="container text-center">
-    <div class="table-responsive">
-    <table class="table table-hover ">
-      <thead>
-        <tr class="colorfy">
-          <th scope="col">#</th>
-          <th scope="col">Trail Name</th>
-          <th scope="col">Location</th>
-          <th scope="col">Difficulty</th>
-        </tr>
-      </thead>
-      <tbody>
-        <tr>
-          <th scope="row">1</th>
-          <td>Devils Head Fire Tower</td>
-          <td>Sedalia</td>
-          <td>Difficult</td>
-        </tr>
-        <tr>
-          <th scope="row">2</th>
-          <td>Mayflower Gulch</td>
-          <td>Frisco</td>
-          <td>Easy</td>
-        </tr>
-        <tr>
-          <th scope="row">3</th>
-          <td>St. Mary's Glacier</td>
-          <td>Black Hawk</td>
-          <td>Medium</td>
-        </tr>
-      </tbody>
-    </table>
-  </div>
-</div>
-    <h1>Pick your favorite trail...</h1>
-    <!-- Large button groups (default and split) -->
-    <div class="btn-group" style="margin-left: 20px">
+      <h1 class="rubik-lines-regular">Trails We Love...</h1>
+      <br />
+      <div class="container text-center">
+        <div class="table-responsive">
+          <table class="table table-hover">
+            <thead>
+              <tr class="colorfy">
+                <th scope="col">#</th>
+                <th scope="col">Trail Name</th>
+                <th scope="col">Location</th>
+                <th scope="col">Difficulty</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <th scope="row">1</th>
+                <td>Devils Head Fire Tower</td>
+                <td>Sedalia</td>
+                <td>Difficult</td>
+              </tr>
+              <tr>
+                <th scope="row">2</th>
+                <td>Mayflower Gulch</td>
+                <td>Frisco</td>
+                <td>Easy</td>
+              </tr>
+              <tr>
+                <th scope="row">3</th>
+                <td>St. Mary's Glacier</td>
+                <td>Black Hawk</td>
+                <td>Medium</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+      <h1 class="rubik-lines-regular">Pick your favorite trail...</h1>
+      <div class="btn-group" style="margin-left: 20px">
+        <button
+          class="btn btn-secondary btn-lg dropdown-toggle"
+          type="button"
+          data-bs-toggle="dropdown"
+          aria-expanded="false"
+          style="border-color: white; color: white; background-color: #05668d"
+        >
+          Trail
+        </button>
+        <ul class="dropdown-menu">
+          <li><a class="dropdown-item" href="#">Devils Head Fire Tower</a></li>
+          <li><a class="dropdown-item" href="#">Mayflower Gulch</a></li>
+          <li><a class="dropdown-item" href="#">St. Mary's Glacier</a></li>
+        </ul>
+        <ul class="dropdown-menu">
+          Devils Head Fire Tower
+        </ul>
+      </div>
+      <br />
+      <br />
       <button
-        class="btn btn-secondary btn-lg dropdown-toggle"
-        type="button"
-        data-bs-toggle="dropdown"
-        aria-expanded="false"
-        style="border-color: white; color: white; background-color: #05668d"
+        type="submit"
+        class="btn btn-primary btn-lg"
+        style="
+          margin-left: 20px;
+          border-color: white;
+          color: white;
+          background-color: #05668d;
+        "
       >
-        Trail
+        Submit
       </button>
-      <ul class="dropdown-menu">
-        <li><a class="dropdown-item" href="#">Devils Head Fire Tower</a></li>
-        <li><a class="dropdown-item" href="#">Mayflower Gulch</a></li>
-        <li><a class="dropdown-item" href="#">St. Mary's Glacier</a></li>
-      </ul>
-      <ul class="dropdown-menu">
-        Devils Head Fire Tower
-      </ul>
+      <br />
+      <br />
+      <img
+        src="../images/nature-4117_256.gif"
+        alt="Shimmering Lake"
+        style="margin-left: 20px"
+      />
     </div>
-    <br>
-    <br>
-    <button type="submit" class="btn btn-primary btn-lg" style="margin-left: 20px; border-color: white; color: white; background-color: #05668d">Submit</button>
-    <br>
-    <br>
-    <img src="../images/nature-4117_256.gif" alt="Shimmering Lake" style="margin-left: 20px;">
-  </div>
-
-
 
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"

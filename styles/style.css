@@ -2,22 +2,22 @@ h1 {
   text-align: center;
   padding-top: 20px;
   color: #05668d;
+  font-stretch: 100%;
+  font-size: 50px;
+}
+.rubik-lines-regular {
+  font-family: "Rubik Lines", system-ui;
+  font-weight: 400;
+  font-style: normal;
 }
 
-#transition1 {
-  transition: all 0.5s ease-out;
-}
-
-#transition1:hover,
-#transition1:focus {
-  background-color: #fff;
-  color: #679436;
-}
-
+#transition1,
 #transition2 {
   transition: all 0.5s ease-out;
 }
 
+#transition1:hover,
+#transition1:focus,
 #transition2:hover,
 #transition2:focus {
   background-color: #fff;
